@@ -1,0 +1,30 @@
+{
+  "name": "noty",
+  "version": "0.0.0",
+  "description": "A small tray icon for Google Keep.",
+  "main": "app.js",
+  "repository": "https://github.com/dusansimic/noty.git",
+  "author": "Dušan Simić <dusan.simic1810@gmail.com> (http://dusansimic.cf)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "1.8.1",
+    "electron-builder": "^19.55.2",
+    "xo": "*"
+  },
+  "scripts": {
+    "postinstall": "electron-builder install-app-deps",
+    "start": "electron .",
+    "test": "xo",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --linux"
+  },
+  "build": {
+    "appId": "com.dusansimic.noty",
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    }
+  }
+}
