@@ -669,9 +669,9 @@ electron-publish@19.55.2:
     fs-extra-p "^4.5.0"
     mime "^2.2.0"
 
-electron@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.1.tgz#19b6f39f2013e204a91a60bc3086dc7a4a07ed88"
+electron@1.8.2-beta.4:
+  version "1.8.2-beta.4"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.2-beta.4.tgz#1836b204eeace9dc77062ed4820fdbc6cbd9a195"
   dependencies:
     "@types/node" "^8.0.24"
     electron-download "^3.0.1"
@@ -2694,7 +2694,7 @@ xo-init@^0.5.0:
     the-argv "^1.0.0"
     write-pkg "^2.0.0"
 
-xo@^0.18.2:
+xo@*:
   version "0.18.2"
   resolved "https://registry.yarnpkg.com/xo/-/xo-0.18.2.tgz#92a42eb02a4fb149dfea5518021914f5aac84ff0"
   dependencies:
